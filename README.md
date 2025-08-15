@@ -5,13 +5,6 @@ Designed to give users a relaxing, immersive sky-themed experience.
 
 ---
 
-## 📸 Preview
-![Cloud Journey Preview](assets/Screenshot_2025-08-15_204217.png)
-![Cloud Journey Preview](assets/Screenshot_2025-08-15_204227.png)
-
-
----
-
 ## 🚀 Features
 - **Interactive cloud animation
 - Realistic color palette for natural sky visuals
