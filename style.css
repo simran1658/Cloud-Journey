@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body, html {
+  height: 100%;
+  color: white;
+}
+
+#vanta-bg {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.hero {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.site-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-quote {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* #typewriter {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: white;
+} */
+
+.glow-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  background: #00f0ff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 0 15px #00f0ff;
+  transition: 0.3s ease;
+}
+
+.glow-btn:hover {
+  background: #00c0ff;
+  box-shadow: 0 0 25px #00f0ff;
+}
+
+.features {
+  background: #f9f4f4;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgb(84, 83, 83);
+  border-radius: 20px;
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgb(19, 19, 19);
+}
+
+.card i {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+  color: #00f0ff;
+}
+
+
+form input, form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+#typewriter {
+  color: #fef9f9;
+  font-size: 50px;
+  font-family :Georgia, 'Times New Roman', Times, serif;
+    margin-right: 2px;
+}
+h1{
+    color: rgb(211, 156, 108);
+}
+
+/* Navbar Styling */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #00d4ff;
+}
+
+#birds-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  pointer-events: none; /* So the hero section remains clickable */
+}
+
+#vanta-bg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
